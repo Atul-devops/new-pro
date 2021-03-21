@@ -1,4 +1,4 @@
-FROM ubuntu:alpine
+FROM scratch
 ADD app.go /
 CMD ["/app.go"]
 
